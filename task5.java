@@ -13,7 +13,6 @@ public class task5 {
             int res = digits % 10;
             prod = prod * res;
             sum = sum + res;
-
             digits = digits/10;
         }
         int diff = prod - sum;
